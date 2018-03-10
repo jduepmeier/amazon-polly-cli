@@ -29,9 +29,9 @@ func getVoice(lang *string) string {
 
 func main() {
 
-	textPtr := flag.String("text", "-", "text input (Default is - for stdin")
+	textPtr := flag.String("text", "-", "text input")
 	filePtr := flag.String("input-file", "", "input file")
-	outPtr := flag.String("out", "-", "audio outfile (Default is - for stdout")
+	outPtr := flag.String("out", "-", "audio outfile")
 	langPtr := flag.String("lang", "de", "language")
 
 	flag.Parse()

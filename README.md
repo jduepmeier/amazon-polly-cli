@@ -20,6 +20,10 @@ Here is an example use under linux:
 ```
 ./amazon-polly-cli -lang en -text <text> -out outfile.mp3
 ```
+
+If no ```-text``` and no ```-input-file``` is given the tool tries to read the text form stdin.
+If no ```-out``` argument is given the tool will output the audio file to stdout.
+
 The tool can also read the text from stdin (```-text -```) or from file (```-input-file <file>```).
 
 You can select the language with the ```-lang``` flag.
