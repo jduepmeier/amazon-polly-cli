@@ -14,6 +14,14 @@ import (
 
 func getVoice(lang *string) string {
 	switch *lang {
+		case "ru":
+			return "Tatyana"
+		case "es":
+			return "Conchita"
+		case "sv":
+			return "Astrid"
+		case "tr":
+			return "Filiz"
 		case "ca-fr":
 			return "Chantal"
 		case "fr":
